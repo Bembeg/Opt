@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/b/Documents/Dropbox/Programování/Geant4/Opt
+CMAKE_SOURCE_DIR = /home/b/Git/Opt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/b/Documents/Dropbox/Programování/Geant4/Opt/Build
+CMAKE_BINARY_DIR = /home/b/Git/Opt/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Opt.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Opt.dir/flags.make
 
 CMakeFiles/Opt.dir/Opt.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/Opt.cc.o: ../Opt.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Opt.dir/Opt.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/Opt.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/Opt.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Opt.dir/Opt.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/Opt.cc.o -c /home/b/Git/Opt/Opt.cc
 
 CMakeFiles/Opt.dir/Opt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/Opt.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/Opt.cc > CMakeFiles/Opt.dir/Opt.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/Opt.cc > CMakeFiles/Opt.dir/Opt.cc.i
 
 CMakeFiles/Opt.dir/Opt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/Opt.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/Opt.cc -o CMakeFiles/Opt.dir/Opt.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/Opt.cc -o CMakeFiles/Opt.dir/Opt.cc.s
 
 CMakeFiles/Opt.dir/Opt.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Opt.dir/Opt.cc.o.provides.build: CMakeFiles/Opt.dir/Opt.cc.o
 
 CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o: ../src/OptPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o -c /home/b/Git/Opt/src/OptPrimaryGeneratorAction.cc
 
 CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptPrimaryGeneratorAction.cc > CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptPrimaryGeneratorAction.cc > CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.i
 
 CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptPrimaryGeneratorAction.cc -o CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptPrimaryGeneratorAction.cc -o CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.s
 
 CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Opt.dir/src/OptPrimaryGeneratorAction.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o: ../src/_OptDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/_OptDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o -c /home/b/Git/Opt/src/_OptDetectorConstruction.cc
 
 CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/_OptDetectorConstruction.cc > CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/_OptDetectorConstruction.cc > CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.i
 
 CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/_OptDetectorConstruction.cc -o CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/_OptDetectorConstruction.cc -o CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.s
 
 CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Opt.dir/src/_OptDetectorConstruction.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/Opt.dir/src/OptRunAction.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptRunAction.cc.o: ../src/OptRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Opt.dir/src/OptRunAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptRunAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Opt.dir/src/OptRunAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptRunAction.cc.o -c /home/b/Git/Opt/src/OptRunAction.cc
 
 CMakeFiles/Opt.dir/src/OptRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptRunAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptRunAction.cc > CMakeFiles/Opt.dir/src/OptRunAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptRunAction.cc > CMakeFiles/Opt.dir/src/OptRunAction.cc.i
 
 CMakeFiles/Opt.dir/src/OptRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptRunAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptRunAction.cc -o CMakeFiles/Opt.dir/src/OptRunAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptRunAction.cc -o CMakeFiles/Opt.dir/src/OptRunAction.cc.s
 
 CMakeFiles/Opt.dir/src/OptRunAction.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Opt.dir/src/OptRunAction.cc.o.provides.build: CMakeFiles/Opt.dir/src/
 
 CMakeFiles/Opt.dir/src/OptStackingAction.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptStackingAction.cc.o: ../src/OptStackingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Opt.dir/src/OptStackingAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptStackingAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptStackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Opt.dir/src/OptStackingAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptStackingAction.cc.o -c /home/b/Git/Opt/src/OptStackingAction.cc
 
 CMakeFiles/Opt.dir/src/OptStackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptStackingAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptStackingAction.cc > CMakeFiles/Opt.dir/src/OptStackingAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptStackingAction.cc > CMakeFiles/Opt.dir/src/OptStackingAction.cc.i
 
 CMakeFiles/Opt.dir/src/OptStackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptStackingAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptStackingAction.cc -o CMakeFiles/Opt.dir/src/OptStackingAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptStackingAction.cc -o CMakeFiles/Opt.dir/src/OptStackingAction.cc.s
 
 CMakeFiles/Opt.dir/src/OptStackingAction.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Opt.dir/src/OptStackingAction.cc.o.provides.build: CMakeFiles/Opt.dir
 
 CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o: ../src/OptTrackInfo.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackInfo.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o -c /home/b/Git/Opt/src/OptTrackInfo.cc
 
 CMakeFiles/Opt.dir/src/OptTrackInfo.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptTrackInfo.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackInfo.cc > CMakeFiles/Opt.dir/src/OptTrackInfo.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptTrackInfo.cc > CMakeFiles/Opt.dir/src/OptTrackInfo.cc.i
 
 CMakeFiles/Opt.dir/src/OptTrackInfo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptTrackInfo.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackInfo.cc -o CMakeFiles/Opt.dir/src/OptTrackInfo.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptTrackInfo.cc -o CMakeFiles/Opt.dir/src/OptTrackInfo.cc.s
 
 CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Opt.dir/src/OptTrackInfo.cc.o.provides.build: CMakeFiles/Opt.dir/src/
 
 CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o: ../src/OptDetectorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptDetectorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o -c /home/b/Git/Opt/src/OptDetectorMessenger.cc
 
 CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptDetectorMessenger.cc > CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptDetectorMessenger.cc > CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.i
 
 CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptDetectorMessenger.cc -o CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptDetectorMessenger.cc -o CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.s
 
 CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Opt.dir/src/OptDetectorMessenger.cc.o.provides.build: CMakeFiles/Opt.
 
 CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o: ../src/OptActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o -c /home/b/Git/Opt/src/OptActionInitialization.cc
 
 CMakeFiles/Opt.dir/src/OptActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptActionInitialization.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptActionInitialization.cc > CMakeFiles/Opt.dir/src/OptActionInitialization.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptActionInitialization.cc > CMakeFiles/Opt.dir/src/OptActionInitialization.cc.i
 
 CMakeFiles/Opt.dir/src/OptActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptActionInitialization.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptActionInitialization.cc -o CMakeFiles/Opt.dir/src/OptActionInitialization.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptActionInitialization.cc -o CMakeFiles/Opt.dir/src/OptActionInitialization.cc.s
 
 CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Opt.dir/src/OptActionInitialization.cc.o.provides.build: CMakeFiles/O
 
 CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o: ../src/OptPhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptPhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o -c /home/b/Git/Opt/src/OptPhysicsList.cc
 
 CMakeFiles/Opt.dir/src/OptPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptPhysicsList.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptPhysicsList.cc > CMakeFiles/Opt.dir/src/OptPhysicsList.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptPhysicsList.cc > CMakeFiles/Opt.dir/src/OptPhysicsList.cc.i
 
 CMakeFiles/Opt.dir/src/OptPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptPhysicsList.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptPhysicsList.cc -o CMakeFiles/Opt.dir/src/OptPhysicsList.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptPhysicsList.cc -o CMakeFiles/Opt.dir/src/OptPhysicsList.cc.s
 
 CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Opt.dir/src/OptPhysicsList.cc.o.provides.build: CMakeFiles/Opt.dir/sr
 
 CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o: ../src/OptTrackerHit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackerHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o -c /home/b/Git/Opt/src/OptTrackerHit.cc
 
 CMakeFiles/Opt.dir/src/OptTrackerHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptTrackerHit.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackerHit.cc > CMakeFiles/Opt.dir/src/OptTrackerHit.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptTrackerHit.cc > CMakeFiles/Opt.dir/src/OptTrackerHit.cc.i
 
 CMakeFiles/Opt.dir/src/OptTrackerHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptTrackerHit.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackerHit.cc -o CMakeFiles/Opt.dir/src/OptTrackerHit.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptTrackerHit.cc -o CMakeFiles/Opt.dir/src/OptTrackerHit.cc.s
 
 CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Opt.dir/src/OptTrackerHit.cc.o.provides.build: CMakeFiles/Opt.dir/src
 
 CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o: ../src/OptTrackingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o -c /home/b/Git/Opt/src/OptTrackingAction.cc
 
 CMakeFiles/Opt.dir/src/OptTrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptTrackingAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackingAction.cc > CMakeFiles/Opt.dir/src/OptTrackingAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptTrackingAction.cc > CMakeFiles/Opt.dir/src/OptTrackingAction.cc.i
 
 CMakeFiles/Opt.dir/src/OptTrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptTrackingAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackingAction.cc -o CMakeFiles/Opt.dir/src/OptTrackingAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptTrackingAction.cc -o CMakeFiles/Opt.dir/src/OptTrackingAction.cc.s
 
 CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/Opt.dir/src/OptTrackingAction.cc.o.provides.build: CMakeFiles/Opt.dir
 
 CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o: CMakeFiles/Opt.dir/flags.make
 CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o: ../src/OptTrackerSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackerSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o -c /home/b/Git/Opt/src/OptTrackerSD.cc
 
 CMakeFiles/Opt.dir/src/OptTrackerSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Opt.dir/src/OptTrackerSD.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackerSD.cc > CMakeFiles/Opt.dir/src/OptTrackerSD.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Opt/src/OptTrackerSD.cc > CMakeFiles/Opt.dir/src/OptTrackerSD.cc.i
 
 CMakeFiles/Opt.dir/src/OptTrackerSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Opt.dir/src/OptTrackerSD.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Opt/src/OptTrackerSD.cc -o CMakeFiles/Opt.dir/src/OptTrackerSD.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Opt/src/OptTrackerSD.cc -o CMakeFiles/Opt.dir/src/OptTrackerSD.cc.s
 
 CMakeFiles/Opt.dir/src/OptTrackerSD.cc.o.requires:
 
@@ -424,7 +424,7 @@ Opt: /usr/local/lib/libG4intercoms.so
 Opt: /usr/local/lib/libG4global.so
 Opt: /usr/local/lib/libCLHEP.so
 Opt: CMakeFiles/Opt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Opt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Opt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Opt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -452,6 +452,6 @@ CMakeFiles/Opt.dir/clean:
 .PHONY : CMakeFiles/Opt.dir/clean
 
 CMakeFiles/Opt.dir/depend:
-	cd /home/b/Documents/Dropbox/Programování/Geant4/Opt/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/b/Documents/Dropbox/Programování/Geant4/Opt /home/b/Documents/Dropbox/Programování/Geant4/Opt /home/b/Documents/Dropbox/Programování/Geant4/Opt/Build /home/b/Documents/Dropbox/Programování/Geant4/Opt/Build /home/b/Documents/Dropbox/Programování/Geant4/Opt/Build/CMakeFiles/Opt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/b/Git/Opt/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/b/Git/Opt /home/b/Git/Opt /home/b/Git/Opt/Build /home/b/Git/Opt/Build /home/b/Git/Opt/Build/CMakeFiles/Opt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Opt.dir/depend
 
