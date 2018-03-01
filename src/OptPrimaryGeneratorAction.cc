@@ -16,7 +16,7 @@ OptPrimaryGeneratorAction::OptPrimaryGeneratorAction()
   fParticleGun = new G4ParticleGun(n_particle);
 
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* particle = particleTable->FindParticle("proton");  //opticalphoton, mu+
+  G4ParticleDefinition* particle = particleTable->FindParticle("mu+");  //opticalphoton, mu+
   fParticleGun->SetParticleDefinition(particle);
  
   //test do detektoru zprava
@@ -33,7 +33,7 @@ OptPrimaryGeneratorAction::OptPrimaryGeneratorAction()
   fParticleGun->SetParticlePosition(G4ThreeVector(0*cm,-0*cm,-0.8*m));
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
 
-  fParticleGun->SetParticleEnergy(1*GeV); //120GeV pro normal, 2.91eV pro test WLS
+  fParticleGun->SetParticleEnergy(0.5*GeV); //120GeV pro normal, 2.91eV pro test WLS
 }
 
 OptPrimaryGeneratorAction::~OptPrimaryGeneratorAction()
