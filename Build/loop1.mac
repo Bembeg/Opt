@@ -1,0 +1,3 @@
+/Opt/detector/blockZ {blockZ}
+
+/control/loop loop2.mac rInner 1 2 0.5

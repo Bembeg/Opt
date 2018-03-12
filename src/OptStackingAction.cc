@@ -33,7 +33,7 @@ OptStackingAction::ClassifyNewTrack(const G4Track * aTrack)
       if(aTrack->GetCreatorProcess()->GetProcessName() == "Scintillation") 
       {
         fScintillationCounter++;
-        //analysisManager->FillH1(0, 1.240824e-3/(aTrack->GetTotalEnergy()));
+        analysisManager->FillH1(0, 1.240824e-3/(aTrack->GetTotalEnergy()));
       }
         
       if(aTrack->GetCreatorProcess()->GetProcessName() == "WLS") 
@@ -41,8 +41,8 @@ OptStackingAction::ClassifyNewTrack(const G4Track * aTrack)
         fWLSCounter++;
         OptTrackInfo* info = (OptTrackInfo*)(aTrack->GetUserInformation());
   
-        //analysisManager->FillH1(1, 1.240824e-3/(info->GetOriginalEnergy()));      
-        //analysisManager->FillH1(2, 1.240824e-3/(aTrack->GetTotalEnergy()));
+        analysisManager->FillH1(1, 1.240824e-3/(info->GetOriginalEnergy()));      
+        analysisManager->FillH1(2, 1.240824e-3/(aTrack->GetTotalEnergy()));
       }
     }
   }
@@ -53,6 +53,8 @@ OptStackingAction::ClassifyNewTrack(const G4Track * aTrack)
 void OptStackingAction::NewStage()
 {
   G4int eventID = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
+  if (eventID % 100 == 0) 
+  {
   G4cout << "----------------------------------" << G4endl
          << "### Event " << eventID << ":" << G4endl
          << "Particles created by process: " << G4endl
@@ -60,6 +62,7 @@ void OptStackingAction::NewStage()
          << fScintillationCounter << G4endl
          << ">> WLS : "
          << fWLSCounter << G4endl; 
+  }
 }
 
 

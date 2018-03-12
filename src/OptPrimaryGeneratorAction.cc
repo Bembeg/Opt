@@ -16,7 +16,7 @@ OptPrimaryGeneratorAction::OptPrimaryGeneratorAction()
   fParticleGun = new G4ParticleGun(n_particle);
 
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* particle = particleTable->FindParticle("mu+");  //opticalphoton, mu+
+  G4ParticleDefinition* particle = particleTable->FindParticle("proton");  //opticalphoton, mu+
   fParticleGun->SetParticleDefinition(particle);
  
   //test do detektoru zprava

@@ -64,11 +64,11 @@ void OptTrackerSD::EndOfEvent(G4HCofThisEvent*)
     else if (detName[0]=='L') detID = 2;
     else if (detName[0]=='R') detID = 3;
 
-    G4cout << detName << " summary:" << G4endl;
+    //G4cout << detName << " summary:" << G4endl;
     for ( G4int i=nofHits-1; i>=0; i-- )
     {
-      G4cout << ">> ";
-      (*fHitsCollection)[i]->Print();
+      //G4cout << ">> ";
+      //(*fHitsCollection)[i]->Print();
 
       man->FillNtupleIColumn(0, evID);  //eventID
       man->FillNtupleIColumn(1, detID);
@@ -77,5 +77,5 @@ void OptTrackerSD::EndOfEvent(G4HCofThisEvent*)
       man->AddNtupleRow();
     } 
   }
-  G4cout << "----------------------------------" << G4endl; 
+  //G4cout << "----------------------------------" << G4endl; 
 }

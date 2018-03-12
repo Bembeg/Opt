@@ -2,7 +2,7 @@
 #include "OptPrimaryGeneratorAction.hh"
 #include "OptRunAction.hh"
 #include "OptStackingAction.hh"
-//#include "OptTrackingAction.hh"
+#include "OptTrackingAction.hh"
 
 
 OptActionInitialization::OptActionInitialization()
@@ -25,7 +25,7 @@ void OptActionInitialization::Build() const
   SetUserAction(new OptPrimaryGeneratorAction());
   SetUserAction(new OptRunAction());
   SetUserAction(new OptStackingAction());
-  //SetUserAction(new OptTrackingAction());
+  SetUserAction(new OptTrackingAction());
 }
 
 

@@ -33,7 +33,7 @@ OptDetectorConstruction::OptDetectorConstruction()
     torStartAngle=-50*degree;
     torEndAngle=270*degree-torStartAngle;
     rInner = 4*0.5*mm;
-    rOuter = 4.1*0.5*mm;
+    rOuter = rInner+0.1*0.5*mm;
     rTor = 30*0.5*mm;
     detX = detY = 4.5*0.5*mm;
     detZ = 1*0.5*mm;
@@ -126,8 +126,8 @@ G4VPhysicalVolume* OptDetectorConstruction::Construct()
     R, R, R, R, R,};   
     
     G4double WLSAbsorb[] = 
-    {1*cm, 0.1*cm, 0.1*mm, 0.5*mm, 0.3*mm,
-    0.3*cm, 10*m, 10*m, 10*m, 10*m};
+    {5*cm, 1*cm, 1*cm, 0.5*cm, 0.3*cm,
+    3*cm, 10*m, 10*m, 10*m, 10*m};
 
     G4double WLSEmission[] =
     {0, 0, 0, 0, 0,
@@ -355,19 +355,19 @@ void OptDetectorConstruction::ConstructSDandField()
 {
     OptTrackerSD* detBot = new OptTrackerSD("DetBot", "Bot Detector Collection");
     G4SDManager::GetSDMpointer()->AddNewDetector(detBot);
-    SetSensitiveDetector("DetBot", detBot, false);
+    SetSensitiveDetector("DetBot", detBot, true);
 
     OptTrackerSD* detTop = new OptTrackerSD("DetTop", "Top Detector Collection");
     G4SDManager::GetSDMpointer()->AddNewDetector(detTop);
-    SetSensitiveDetector("DetTop", detTop, false);
+    SetSensitiveDetector("DetTop", detTop, true);
 
     OptTrackerSD* detLeft = new OptTrackerSD("DetLeft", "Left Detector Collection");
     G4SDManager::GetSDMpointer()->AddNewDetector(detLeft);
-    SetSensitiveDetector("DetLeft", detLeft, false);
+    SetSensitiveDetector("DetLeft", detLeft, true);
 
     OptTrackerSD* detRight = new OptTrackerSD("DetRight", "Right Detector Collection");
     G4SDManager::GetSDMpointer()->AddNewDetector(detRight);
-    SetSensitiveDetector("DetRight", detRight, false);
+    SetSensitiveDetector("DetRight", detRight, true);
 }
 
 void OptDetectorConstruction::SetBlockX(G4double BlockX) {

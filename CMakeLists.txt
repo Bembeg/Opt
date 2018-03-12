@@ -48,6 +48,8 @@ set(Opt_SCRIPTS
     gui.mac
     vis.mac
     macro.mac
+    loop1.mac
+    loop2.mac
     )
 
 foreach(_script ${Opt_SCRIPTS})

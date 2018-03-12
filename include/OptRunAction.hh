@@ -20,6 +20,7 @@ class OptRunAction : public G4UserRunAction
 
   private:
     G4Timer* fTimer;
+
 };
 
 

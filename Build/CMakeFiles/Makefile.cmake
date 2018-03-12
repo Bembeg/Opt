@@ -12,6 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "../CMakeLists.txt"
   "../gui.mac"
+  "../loop1.mac"
+  "../loop2.mac"
   "../macro.mac"
   "../vis.mac"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake"
@@ -68,6 +70,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gui.mac"
   "vis.mac"
   "macro.mac"
+  "loop1.mac"
+  "loop2.mac"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

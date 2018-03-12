@@ -119,6 +119,8 @@ OptRunAction.hh
 /home/b/Git/Opt/src/OptRunAction.hh
 OptStackingAction.hh
 /home/b/Git/Opt/src/OptStackingAction.hh
+OptTrackingAction.hh
+/home/b/Git/Opt/src/OptTrackingAction.hh
 
 /home/b/Git/Opt/src/OptDetectorMessenger.cc
 OptDetectorMessenger.hh
@@ -229,6 +231,8 @@ g4root.hh
 /home/b/Git/Opt/src/g4root.hh
 OptRunAction.hh
 /home/b/Git/Opt/src/OptRunAction.hh
+OptDetectorConstruction.hh
+/home/b/Git/Opt/src/OptDetectorConstruction.hh
 G4Run.hh
 /home/b/Git/Opt/src/G4Run.hh
 
