@@ -1,2 +1,2 @@
 /run/beamOn 100
-/control/shell cp out.root out_B{blockZ}_R{rInner}.root
+/control/shell cp out.root data/out_B{blockZ}_R{rInner}.root

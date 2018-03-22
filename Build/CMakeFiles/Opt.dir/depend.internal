@@ -150,6 +150,7 @@ CMakeFiles/Opt.dir/Opt.cc.o
  /usr/local/include/Geant4/G4LogicalVolume.icc
  /usr/local/include/Geant4/G4LorentzVector.hh
  /usr/local/include/Geant4/G4MCCIndexConversionTable.hh
+ /usr/local/include/Geant4/G4MTBarrier.hh
  /usr/local/include/Geant4/G4MTHepRandom.hh
  /usr/local/include/Geant4/G4MTHepRandom.icc
  /usr/local/include/Geant4/G4MTRandBit.hh
@@ -166,6 +167,7 @@ CMakeFiles/Opt.dir/Opt.cc.o
  /usr/local/include/Geant4/G4MTRandGaussQ.icc
  /usr/local/include/Geant4/G4MTRandGeneral.hh
  /usr/local/include/Geant4/G4MTRandGeneral.icc
+ /usr/local/include/Geant4/G4MTRunManager.hh
  /usr/local/include/Geant4/G4Material.hh
  /usr/local/include/Geant4/G4MaterialCutsCouple.hh
  /usr/local/include/Geant4/G4MaterialPropertiesTable.hh
@@ -230,6 +232,7 @@ CMakeFiles/Opt.dir/Opt.cc.o
  /usr/local/include/Geant4/G4ProcessVector.icc
  /usr/local/include/Geant4/G4ProductionCuts.hh
  /usr/local/include/Geant4/G4ProductionCutsTable.hh
+ /usr/local/include/Geant4/G4RNGHelper.hh
  /usr/local/include/Geant4/G4RayTracer.hh
  /usr/local/include/Geant4/G4RayTracerX.hh
  /usr/local/include/Geant4/G4ReferenceCountedHandle.hh

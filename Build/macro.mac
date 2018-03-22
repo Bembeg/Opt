@@ -1,8 +1,4 @@
+/control/cout/useBuffer true
 /run/initialize
 
-/control/loop loop1.mac blockZ 5 7 1
-
-/Opt/detector/rInner 0.2 
-/Opt/detector/blockZ 20
-/run/beamOn 100
-
+/control/loop loop1.mac blockZ 1 5 0.2

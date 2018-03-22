@@ -97,7 +97,7 @@ G4VPhysicalVolume* OptDetectorConstruction::Construct()
     scintMPT->AddProperty("RINDEX", photonEnergy, scintRIndex, nOfEntries)->SetSpline(true);
     scintMPT->AddProperty("ABSLENGTH", photonEnergy, scintAbsorb, nOfEntries)->SetSpline(true);
     scintMPT->AddProperty("FASTCOMPONENT",photonEnergy, scintFast, nOfEntries)->SetSpline(true);
-    scintMPT->AddConstProperty("SCINTILLATIONYIELD",100./MeV);
+    scintMPT->AddConstProperty("SCINTILLATIONYIELD",30./MeV);
     scintMPT->AddConstProperty("RESOLUTIONSCALE",1.0);
     scintMPT->AddConstProperty("FASTTIMECONSTANT", 5.*ns);
     fScintMat->SetMaterialPropertiesTable(scintMPT);

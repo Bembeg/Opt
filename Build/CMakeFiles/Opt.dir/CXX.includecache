@@ -95,6 +95,8 @@ G4UserTrackingAction.hh
 ../include/G4UserTrackingAction.hh
 
 /home/b/Git/Opt/Opt.cc
+G4MTRunManager.hh
+/home/b/Git/Opt/G4MTRunManager.hh
 G4RunManager.hh
 /home/b/Git/Opt/G4RunManager.hh
 G4UImanager.hh
@@ -2322,6 +2324,12 @@ globals.hh
 G4ios.hh
 /usr/local/include/Geant4/G4ios.hh
 
+/usr/local/include/Geant4/G4MTBarrier.hh
+G4Threading.hh
+/usr/local/include/Geant4/G4Threading.hh
+windefs.hh
+/usr/local/include/Geant4/windefs.hh
+
 /usr/local/include/Geant4/G4MTHepRandom.hh
 CLHEP/Random/RandomEngine.h
 -
@@ -2405,6 +2413,20 @@ G4MTRandGeneral.icc
 /usr/local/include/Geant4/G4MTRandGeneral.icc
 
 /usr/local/include/Geant4/G4MTRandGeneral.icc
+
+/usr/local/include/Geant4/G4MTRunManager.hh
+G4RunManager.hh
+/usr/local/include/Geant4/G4RunManager.hh
+G4Threading.hh
+/usr/local/include/Geant4/G4Threading.hh
+G4RNGHelper.hh
+/usr/local/include/Geant4/G4RNGHelper.hh
+G4MTBarrier.hh
+/usr/local/include/Geant4/G4MTBarrier.hh
+list
+-
+map
+-
 
 /usr/local/include/Geant4/G4Material.hh
 vector
@@ -3643,6 +3665,16 @@ G4ParticleDefinition.hh
 /usr/local/include/Geant4/G4ParticleDefinition.hh
 G4Ions.hh
 /usr/local/include/Geant4/G4Ions.hh
+
+/usr/local/include/Geant4/G4RNGHelper.hh
+G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
+vector
+-
+queue
+-
+globals.hh
+/usr/local/include/Geant4/globals.hh
 
 /usr/local/include/Geant4/G4RandomDirection.hh
 CLHEP/Units/PhysicalConstants.h
