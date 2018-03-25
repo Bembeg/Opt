@@ -385,7 +385,6 @@ Opt: /usr/local/lib/libG4OpenGL.so
 Opt: /usr/local/lib/libG4gl2ps.so
 Opt: /usr/local/lib/libG4interfaces.so
 Opt: /usr/local/lib/libG4persistency.so
-Opt: /usr/local/lib/libG4analysis.so
 Opt: /usr/local/lib/libG4error_propagation.so
 Opt: /usr/local/lib/libG4readout.so
 Opt: /usr/local/lib/libG4physicslists.so
@@ -393,15 +392,13 @@ Opt: /usr/local/lib/libG4parmodels.so
 Opt: /usr/local/lib/libG4FR.so
 Opt: /usr/local/lib/libG4vis_management.so
 Opt: /usr/local/lib/libG4modeling.so
-Opt: /usr/lib/x86_64-linux-gnu/libXm.so
+Opt: /usr/lib/x86_64-linux-gnu/libGLU.so
+Opt: /usr/lib/x86_64-linux-gnu/libGL.so
 Opt: /usr/lib/x86_64-linux-gnu/libSM.so
 Opt: /usr/lib/x86_64-linux-gnu/libICE.so
 Opt: /usr/lib/x86_64-linux-gnu/libX11.so
 Opt: /usr/lib/x86_64-linux-gnu/libXext.so
-Opt: /usr/lib/x86_64-linux-gnu/libXt.so
 Opt: /usr/lib/x86_64-linux-gnu/libXmu.so
-Opt: /usr/lib/x86_64-linux-gnu/libGLU.so
-Opt: /usr/lib/x86_64-linux-gnu/libGL.so
 Opt: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.5.1
 Opt: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.5.1
 Opt: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
@@ -412,7 +409,8 @@ Opt: /usr/local/lib/libG4run.so
 Opt: /usr/local/lib/libG4event.so
 Opt: /usr/local/lib/libG4tracking.so
 Opt: /usr/local/lib/libG4processes.so
-Opt: /usr/lib/x86_64-linux-gnu/libz.so
+Opt: /usr/local/lib/libG4analysis.so
+Opt: /usr/local/lib/libG4zlib.so
 Opt: /usr/lib/x86_64-linux-gnu/libexpat.so
 Opt: /usr/local/lib/libG4digits_hits.so
 Opt: /usr/local/lib/libG4track.so
@@ -422,7 +420,7 @@ Opt: /usr/local/lib/libG4materials.so
 Opt: /usr/local/lib/libG4graphics_reps.so
 Opt: /usr/local/lib/libG4intercoms.so
 Opt: /usr/local/lib/libG4global.so
-Opt: /usr/local/lib/libCLHEP.so
+Opt: /usr/local/lib/libCLHEP-2.4.0.4.so
 Opt: CMakeFiles/Opt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/b/Git/Opt/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Opt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Opt.dir/link.txt --verbose=$(VERBOSE)

@@ -27,14 +27,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4UI_USE"
   "G4UI_USE_QT"
   "G4UI_USE_TCSH"
-  "G4UI_USE_XM"
   "G4VERBOSE"
   "G4VIS_USE"
   "G4VIS_USE_OPENGL"
   "G4VIS_USE_OPENGLQT"
   "G4VIS_USE_OPENGLX"
-  "G4VIS_USE_OPENGLXM"
-  "G4VIS_USE_RAYTRACERX"
   "G4_STORE_TRAJECTORY"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
@@ -46,10 +43,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
+  "/usr/local/lib/CLHEP-2.4.0.4/../../include"
   "/usr/local/include/Geant4"
   "/usr/include/Geant4"
   "../include"
+  "/usr/local/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
